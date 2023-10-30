@@ -1,0 +1,61 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gosto de Doce</title>
+</head>
+<body>
+<header class="cabeçalho">
+    <h1 id = "cabeçalho"></h1>
+    <p id = "slogan">Bem-vindo à confeitaria "Gosto de Doce" - um paraíso culinário onde os sonhos açucarados se tornam realidade! Localizada no coração da cidade, a "Gosto de Doce" é um oásis encantado que cativa os sentidos e satisfaz os desejos mais doces.</p>
+    <p id = "bio"></p>
+    <p id = "localizacao"></p>
+    <button class="botao1" onclick = "exibirendereco()">home</button>
+    <button class="botao2">contact</button>
+    <button class="botao3">cakes</button>
+</header>
+<main>
+    <h2 id="perfil"></h2>
+    <p id="funçao"></p>
+    <p id = "conectado"></p>
+    <p id = "campo"></p>
+    <form>
+      <fieldset>
+        <legend>Informações de Contato</legend>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" required>
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+      </fieldset>
+    </form>
+    <h2>Bolos</h2>
+    <p>Nós podemos fazer uma grande variedade de produtos, incluindo:</p>
+    <ul>
+      <li id="bolo1"></li>
+      <li id="bolo2"></li>
+      <li id="bolo3"></li>
+    </ul>
+    <h1>Funcionarios</h1>
+    <p id = "funcionario1"></p>
+    <p id = "funcionario2"></p>
+    <p id = "funcionario3"></p>
+    <p id = "funcionario4"></p>
+    <p id = "funcionario5"></p>
+    <button onclick="exibirPerfil()";>mais</button>
+    <button onclick="ocultarPerfil()";>menos</button>
+  </main>
+<footer>
+
+    <p id = "localizacao"></p>
+
+</footer>
+</body>
+<script src="Script.js"></script>
+</html>

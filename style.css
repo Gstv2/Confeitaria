@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(142, 229, 245);
+}
+
+header{
+    text-align: center;
+    height: 100px;
+    background-color: rgb(180, 72, 223);
+}
+
+header h1, p{
+    color: #fffb01;;
+}
+
+header button{
+    float: right;
+    background: none;
+    color: aqua;
+    position: relative;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #00ffbf;
+    box-shadow: 0px 0px 10px #aaa;
+  }
+  
+  h2 {
+    font-size: 1.8em;
+    color: green;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para o formulário de contato */
+  form {
+    margin-top: 0px;
+  }
+  
+  fieldset {
+    border: none;
+    color: green;
+    padding: 0;
+    margin: 0;
+  }
+  
+  legend {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #444;
+  }
+  
+  /* Estilos para o rodapé */
+footer{
+    background-color: rgb(180, 72, 223);
+}

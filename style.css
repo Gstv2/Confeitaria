@@ -1,35 +1,42 @@
 body{
-    background-color: rgb(142, 229, 245);
+    background: rgb(89,18,2);
+    background: linear-gradient(90deg, rgba(89,18,2,1) 12%, rgba(191,66,21,0.8855917366946778) 88%);
+    color: #F2E6CE;
 }
 
 header{
+    max-width: 900px;
+    border-radius: 25px 25px 0px 0px;
     text-align: center;
+    margin: 0 auto;
+    padding: 20px;
     height: 100px;
-    background-color: rgb(180, 72, 223);
+    background-color: #F2CA52;
 }
 
 header h1, p{
-    color: #fffb01;;
+    color: #BF4215;
 }
 
 header button{
     float: right;
     background: none;
-    color: aqua;
+    color:#F2E6CE;
     position: relative;
 }
 
 main {
+    border-radius: 0px 0px 25px 10px;
     max-width: 900px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #00ffbf;
-    box-shadow: 0px 0px 10px #aaa;
+    background-color: #F28729;
+    box-shadow: 7px 7px 20px #532e0db2;
   }
   
   h2 {
     font-size: 1.8em;
-    color: green;
+    color: #F2E6CE;
     margin-top: 30px;
     margin-bottom: 20px;
   }
@@ -49,7 +56,7 @@ main {
   
   fieldset {
     border: none;
-    color: green;
+    color: #F2E6CE;
     padding: 0;
     margin: 0;
   }
@@ -80,7 +87,7 @@ main {
     height: 100px;
   }
   
-  button[type="submit"] {
+  button {
     background-color: #333;
     color: #fff;
     border: none;
@@ -89,7 +96,7 @@ main {
     cursor: pointer;
   }
   
-  button[type="submit"]:hover {
+  button:hover {
     background-color: #444;
   }
   

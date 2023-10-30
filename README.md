@@ -1,10 +1,9 @@
 # Confeitaria
 
-
 <div>
-  <h1>
+  <h2>
     Criação de uma Página Interativa de Perfis de Usuários
-  </h1>
+  </h2>
 </div>
 <div>
   <h3>
